@@ -1,0 +1,9 @@
+1. Pass "None" as shape of timesteps to make it variable and and introduce zero-padding process as a keras layer - save much efforts for pre-processing and no need for estimating max timesteps ourselves
+2. Implement attention based on LSTM layer output - should improve performance a lot
+how to:
+https://github.com/fchollet/keras/issues/1472
+https://github.com/fchollet/keras/issues/4962
+3. tune hyperparameters and explore more activation functions - should improve performance a lot
+"Efficient Backprop": http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+4. add more hidden layer nodes, 32 is likely not enough
+5. ensemble models
